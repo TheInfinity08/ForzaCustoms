@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Home-Style */
+
+.top .container {
+  margin-bottom: 5%;
+}
+
+.logo
+{
+  background-image: url("../img/pic1.png");
+  height: 90px;
+  width: 150px;
+  background-size: cover;
+}
+
+.header-title {
+  text-align: center;
+  font-family: "Bangers", cursive;
+  font-size: 6.75em;
+  color: whitesmoke;
+}
+
+.nav-link {
+  font-size: larger;
+  font-family: "Rajdhani", sans-serif;
+  color: whitesmoke;
+}
+.nav-link:hover {
+  font-size: larger;
+  font-family: "Rajdhani", sans-serif;
+  color: rgb(245, 245, 245, 0.6);
+}
+.nav-link:visited {
+  font-size: larger;
+  font-family: "Rajdhani", sans-serif;
+  color: rgb(245, 245, 245, 0.6);
+}
+.nav-link:active {
+  font-size: larger;
+  font-family: "Rajdhani", sans-serif;
+  color: rgb(245, 245, 245, 0.6);
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: whitesmoke;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+@media screen and (max-height: 300px) {
+  ul {
+    margin-top: 40px;
+  }
+}
+
+.top {
+  background: url("../img/wp7.jpg") no-repeat center center;
+  height: 1000px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.mid h1 {
+  font-family: "Bangers", cursive;
+  font-size: 5em;
+  color: #3a3e40;
+}
+.mid p {
+  color: #3a3e40;
+  font-family: "Rajdhani", sans-serif;
+  font-size: x-large;
+}
+
+.bottom {
+  background-color: #3a3e40;
+}
+.bottom h1 {
+  font-family: "Bangers", cursive;
+  font-size: 6.75em;
+  color: whitesmoke;
+}
+.bottom p {
+  font-family: "Rajdhani", sans-serif;
+  font-size: x-large;
+  color: whitesmoke;
+}
+
+.featurette-heading {
+  margin: 10% 0 10% 0;
+  font-family: "Bangers", cursive;
+  font-size: 4em;
+  color: whitesmoke;
+}
+
+.footer {
+  color: #3a3e40;
+  background-color: whitesmoke;
+  font-family: "Rajdhani", sans-serif;
+  font-size: xx-large;
+}
+
+.footer h1 {
+  font-family: "Bangers", cursive;
+  font-size: 3em;
+}
+
+/* Home-Style */
+
+
+/* Login-Style */
+
+.input-login
+{
+  text-align: center;
+  margin: 10% 20% 0 20%;
+}
+
+.logo-login
+{
+  background-image: url("../img/pic1.png");
+  height: 90px;
+  width: 150px;
+  background-size: cover;
+  margin: auto;
+}
+
+.background-login
+{
+  background: url("../img/wp9.jpg") no-repeat center center;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.head-login
+{
+  font-family: "Bangers", cursive;
+  font-size: 3em;
+  color: crimson;
+}
+
+.login-form-style
+{
+  font-family: "Rajdhani", sans-serif;
+  font-size: large;
+}
+
+.login-button-style
+{
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5em;
+}
+
+.login-cp-style
+{
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5em;
+  color: crimson;
+  font-weight: bolder;
+  background-color: rgb(245, 245, 245, 0.6);
+  border-radius: 5px;
+}
+
+/* Login-Style */
+
+/* Signup-Style */
+.background-signup
+{
+  background: url("../img/wp8.jpg") no-repeat center center;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Signup-Style */
+
+
+/* Parts-Style */
+
+
+
+
+
+
+/* Parts-Style */
